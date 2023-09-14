@@ -1,5 +1,3 @@
-`timescale 1ns / 1ps
-
 module maxPooling(
     input clk,
     input [21:0] input1,
@@ -23,14 +21,13 @@ module maxPooling(
     output reg maxPoolingDone
 );
 
-     
     reg [21:0] maxVal;
     reg [21:0] array_image [0:15];
-    integer i ;
+    integer i;
 
     always @ (posedge clk) begin
         if (enable) begin
-            maxVal <= input1;
+           maxVal <= -2**21; // Initialize maxVal to minimum value
             maxPoolingDone <= 0;
             array_image[0] <= input1;
             array_image[1] <= input2;
@@ -49,7 +46,7 @@ module maxPooling(
             array_image[14] <= input15;
             array_image[15] <= input16;
 
-            for ( i = 1; i <= 16; i = i + 1) begin
+            for (i = 0; i < 16; i = i + 1) begin
                 if ($signed(maxVal) < $signed(array_image[i])) begin
                     maxVal <= array_image[i];
                 end
@@ -63,6 +60,4 @@ module maxPooling(
             maxPoolingDone <= 0;
         end
     end
-
-endmodule 
- 
+endmodule
