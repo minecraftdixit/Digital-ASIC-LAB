@@ -127,7 +127,7 @@ module maxPooling_tb;
 	);
 	
 	initial begin
-		// Initialize Inputs
+		 
           input1 = 0;
           input2 = 0;
           input3 = 0;
@@ -209,7 +209,7 @@ module maxPooling_tb;
                 array_image[61] = 22'b0111100111001101111011; 
                 array_image[62] = 22'b0101110100111111101011;  
                 array_image[63] = 22'b1000110000110010010100;  
-                array_image[64] = 22'b0110010111100111001010;  
+               
 
 		enable = 0;
 		clk = 0;
@@ -224,18 +224,18 @@ module maxPooling_tb;
 			input2 = array_image[i+1];
 			input3 = array_image[i+2];
 			input4 = array_image[i+3];
-                        input5 = array_image[i + 4];
-                        input6 = array_image[i + 5];
-                        input7 = array_image[i + 6];
-                        input8 = array_image[i + 7];
-                        input9 = array_image[i + 8];
-                        input10 = array_image[i + 9];
-                        input11 = array_image[i + 10];
-                        input12 = array_image[i + 11];
-                        input13 = array_image[i + 12];
-                        input14 = array_image[i + 13];
-                        input15 = array_image[i + 14];
-                        input16 = array_image[i + 15];
+                        input5 = array_image[i+4];
+                        input6 = array_image[i+5];
+                        input7 = array_image[i+6];
+                        input8 = array_image[i+7];
+                        input9 = array_image[i+8];
+                        input10 = array_image[i+9];
+                        input11 = array_image[i+10];
+                        input12 = array_image[i+11];
+                        input13 = array_image[i+12];
+                        input14 = array_image[i+13];
+                        input15 = array_image[i+14];
+                        input16 = array_image[i+15];
 		        i = i + 16;
 		end
 		else begin
