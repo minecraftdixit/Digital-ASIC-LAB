@@ -1,6 +1,6 @@
 /*
-	Author: Aniket Badhan
-	Description: Max Pooling implementation (to find out the max of the 4 inputs of 2X2 sub matrix	)
+	Author: Ayush dixit
+	Description: Max Pooling implementation (to find out the max of the 16 inputs of 4X4 sub matrix	)
 */
 
 `timescale 1ns / 1ps
