@@ -1,7 +1,4 @@
-/*
-	Author: Ayush dixit
-	Description: Max Pooling implementation (to find out the max of the 16 inputs of 4X4 sub matrix	)
-*/
+ 
 
 `timescale 1ns / 1ps
 
