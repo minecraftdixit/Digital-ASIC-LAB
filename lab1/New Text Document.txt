@@ -1,0 +1,29 @@
+def count_non_overlapping_occurrences(main_string, sub_string):
+    count = 0
+    start = 0
+    
+    while start < len(main_string):
+        index = main_string.find(sub_string, start)
+        if index == -1:
+            break
+        count += 1
+        start = index + len(sub_string)
+    
+    return count
+
+def main():
+    main_string_1101 = input("Enter the main string to find '1101' pattern in: ")
+    sub_string_1101 = "1101"
+    result_1101 = count_non_overlapping_occurrences(main_string_1101, sub_string_1101)
+    print("Number of non-overlapping occurrences of '1101':", result_1101)
+
+    main_string_1001 = input("Enter the main string to find '1001' pattern in: ")
+    sub_string_1001 = "1001"
+    result_1001 = count_non_overlapping_occurrences(main_string_1001, sub_string_1001)
+    print("Number of non-overlapping occurrences of '1001':", result_1001)
+
+    total_occurrences = result_1101 + result_1001
+    print("Total occurrences of both patterns:", total_occurrences)
+
+if __name__ == "__main__":
+    main()
