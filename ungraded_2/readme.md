@@ -1,3 +1,8 @@
+
+ ![Screenshot 2023-10-21 at 17-14-18 Ungraded_2 drawio pdf](https://github.com/minecraftdixit/EEP7120-LAB/assets/63745645/e83a4ca2-bf32-4983-8ff8-3d9dab3ea65d)
+
+ 
+ 
  ![Screenshot from 2023-10-21 16-59-40](https://github.com/minecraftdixit/EEP7120-LAB/assets/63745645/6f66ffda-68d5-4f46-8a4a-8909707151e7)
 # Testbench Results for `top_module`
 
