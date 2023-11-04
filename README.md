@@ -21,8 +21,10 @@ This repository hosts a collection of Verilog code and associated files for lab 
 4. **Lab Project 4:** [UVM verification of FIFO](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/lab4) 
 5. **Lab Project 5:** [Matrix adder and subtractor in verilog ](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/lab5) 
 6. **Lab Project 6(Formal Verification Course) :** [Router Design Assertions](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/lab6) 
-7. **Ungraded Lab Project 1:** [Memory in verilog ](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/ungraded_1) 
-8. **Ungraded Lab Project 2:** [One counter and Detector](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/ungraded_2) 
+7. **Lab Project 7 :** [8*8 Multiplier](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/lab7) 
+8. **Ungraded Lab Project 1:** [Memory in verilog ](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/ungraded_1) 
+9. **Ungraded Lab Project 2:** [One counter and Detector](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/ungraded_2)
+10. **Ungraded Lab Project 2:** [2*2 Adder](https://github.com/minecraftdixit/Digital-ASIC-LAB/tree/main/ungraded_3)
 Each lab project folder contains the Verilog source code, testbenches, and any other relevant files needed for the project. You can explore each project by clicking on the provided links.
 
 ## Getting Started
